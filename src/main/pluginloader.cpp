@@ -63,7 +63,6 @@ std::vector<std::string> pl::locate_plugins(){
     std::cout << std::endl;
 
 
-
     for(int index = 0; index < files.size();){
         if (files.at(index).find(FILE_EXTENSION) != std::string::npos) {
             index++;
